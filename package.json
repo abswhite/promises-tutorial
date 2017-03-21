@@ -1,0 +1,23 @@
+{
+  "name": "promises-tutorial",
+  "version": "1.0.0",
+  "description": "promises tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abswhite/promises-tutorial.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abswhite/promises-tutorial/issues"
+  },
+  "homepage": "https://github.com/abswhite/promises-tutorial#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

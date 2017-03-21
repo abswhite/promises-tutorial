@@ -2,14 +2,16 @@
 
 let promiseToCleanTheRoom = new Promise(function(resolve, reject) {
   //cleaning the room
-  let isClean = true;
+  let isClean = false;
   if (isClean) {
     resolve('clean');
   } else {
-    reject();
+    reject('not clean');
   }
 });
 
 promiseToCleanTheRoom.then(function(fromResolve) {
-  console.log('the room is ' + resolve());
-})
+  console.log('the room is ' + fromResolve);
+}).catch(function(fromReject) {
+  console.log('the room is ' + fromReject);
+});
